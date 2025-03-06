@@ -1,0 +1,124 @@
+﻿body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__title {
+    color: #00AEEF;
+}
+
+.header__subtitle {
+    color: #7FDBFF;
+}
+
+.nav {
+    background-color: #1A1A1A;
+    padding: 10px 0;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav__item {
+    margin: 0 15px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #00AEEF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+    .nav__link:hover {
+        color: #7FDBFF;
+    }
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section__title {
+    color: #00AEEF;
+    border-bottom: 2px solid #00AEEF;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.skills__list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills__item {
+    background-color: #1E1E1E;
+    padding: 10px;
+    margin: 5px auto;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.projects__list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects__item {
+    background-color: #1E1E1E;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.projects__title {
+    color: #00AEEF;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #00AEEF;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+    .button:hover {
+        background-color: #7FDBFF;
+    }
+
+.footer {
+    background-color: #1A1A1A;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__title {
+    color: #00AEEF;
+}
+
+.footer__link {
+    color: #7FDBFF;
+    text-decoration: none;
+}
+
+    .footer__link:hover {
+        text-decoration: underline;
+    }
