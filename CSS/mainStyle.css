@@ -1,0 +1,54 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+}
+
+.converter {
+    width: 400px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .converter:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    }
+
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.currency-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+    .currency-select .select {
+        width: auto;
+        text-align: center;
+        margin: 0 0.5rem;
+    }
+
+#convert-btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    #convert-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
